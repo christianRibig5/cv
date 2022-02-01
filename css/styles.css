@@ -1,17 +1,27 @@
+/**********Tag Selector*****/
+/*This used to add css effect that is general to the entire website**/
 body {
     background-color: #EAF6F6;
 }
 hr {
+    border-color: gray;
     border-style: none;
     border-top-style: dotted;
-    border-color: gray;
     border-width: 5px;
     width: 5%;
 }
-img{
+h3{
+    color: #66BFBF;
+}
+/**********Class Selector****/
+/*This is use to group tags that will have related behaviour accross the any page on webpage. It could be repeated.This like paragraphs, anchor and image tage it will be very rare to use tag because you might no probably want them to have same look and feel**/
+.profile_picture{
     height: 200px;
 }
-h1,
-h3{
+
+/**********ID Selector****/
+/*ID and class selectors are similar but you can only have a single instance of ID selector with same name in a page. Only use ID when your want to add css effect to some tags that are same across different pages such the the heading tags eg h1, nav, footer, aside, etc. The id tags have priority over class and only css generic selector tag**/
+
+#heading{
     color: #66BFBF;
 }
